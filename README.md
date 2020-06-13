@@ -3,11 +3,11 @@ Using attention to extend image quality assessment algorithms for the task of vi
 
 ## Two-stage learning
 
-Attention is used over features extracted by SOTA no-reference IQA algorithms.
+Attention is used over features extracted by SOTA no-reference IQA algorithms in attention.py.
 
 ## End-to-end learning
 
-Paq-2-Piq (an IQA model that uses deep-learning) is paired with an RNN and attention (CNN+RNN framework) to learn VQA scores end-to-end.
+Paq-2-Piq (an IQA model that uses deep-learning) is paired with an RNN and attention (CNN+RNN framework) to learn VQA scores end-to-end in vqa.py.
 
 
 ann.py trains feature vectors that are averaged across frames.
